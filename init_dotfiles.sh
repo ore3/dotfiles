@@ -6,7 +6,7 @@ if [ -e ~/.vimdir ]; then
 	echo "found vimdir"
 else
 	echo "mkdir vimdir"
-	mkdir -p ~/.vimdir/{swap,backup}
+	mkdir -p ~/.vimdir/{swap,backup,undo}
 fi
 
 # download 
